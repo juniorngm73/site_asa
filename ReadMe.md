@@ -6,11 +6,12 @@ Ataulizar conforme a atividade.
 2) docker build -t nginx_v1 .
    
    docker image ls (para verificar a criação da imagem)
-4) Criar container a paratir da imagem nginx_v1
+4) Criar container a partir da imagem nginx_v1
    
    docker run -d --name Servidor_Nginx -p 8080:80 nginx_v1
    docker ps (verificar container criado e rodando)
 6) Executar o container
    docker container exec -it 769e1320328d bash
+
 
 
